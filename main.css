@@ -43,3 +43,34 @@
     transition: opacity 0.3s ease;
   }
 
+
+  /* endless animtion */
+  /* @keyframes scrollX {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  .scroll-infinite {
+    display: flex;
+    animation: scrollX 20s linear infinite;
+  } */
+
+  @keyframes scrollX {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  .scroll-infinite {
+    display: flex;
+    animation: scrollX 15s linear infinite;
+  }
+  .bw-icon {
+    filter: grayscale(100%) brightness(0);
+  }
+
