@@ -8,6 +8,8 @@
     <link href="./dist/output.css" rel="stylesheet">
     <!-- css -->
     <link rel="stylesheet" href="./main.css">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 
@@ -71,7 +73,7 @@
         <section class="w-full m-auto my-3 mt-[100px] lg:mt-[200px]  max-w-[53rem] lg:max-w-[60rem] p-6 lg:p-0">
             <div class="flex flex-col gap-8">
                 <div>
-                    <div class="flex flex-col gap-4">
+                    <div class="flex flex-col gap-4" data-aos="fade-up" data-aos-duration="1000">
                         <h1 class="text-[32px] md:text-[42px] font-bold tracking-[-.03em] leading-[110%] text-black">
                             Kaotheem Construction Services
                         </h1>
@@ -135,7 +137,7 @@
                         </div>
                     </div>
                 </div>
-                <div>
+                <div data-aos="fade-up" data-aos-anchor-placement="top-center">
                     <img src="/image/Kaotheem Construction.jpg" alt="" class="rounded-xl border">
                 </div>
             </div>
@@ -143,7 +145,7 @@
 
         <!-- card -->
         <section class="lg:mt-[100px] w-full m-auto mb-3 max-w-[53rem] lg:max-w-[60rem] p-6 lg:p-0">
-            <div class="bg-[#000000] p-8 rounded-xl flex flex-col gap-6">
+            <div class="bg-[#000000] p-8 rounded-xl flex flex-col gap-6" data-aos="fade-up" data-aos-anchor-placement="top-center">
                 <div class="max-w-none">
                     <h3 class="text-[16px] font-bold mb-1 text-white">My Role</h3>
                     <p class="text-[16px] leading-relaxed" style="color: #d3cececc;">
@@ -256,6 +258,11 @@
 
 
     <script src="./main.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
